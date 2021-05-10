@@ -1,0 +1,8 @@
+﻿col_name,col_type,label,indicator_grouping,indicator_unit,indicator_dp,filter_hint,filter_grouping_column
+gender,Filter,Gender,,,,,
+school_type,Filter,Type of school,,,,,
+number_on_roll,Indicator,Number on roll,,,0,,
+number_attending,Indicator,Number attending,,,0,,
+percentage_attending,Indicator,Percentage attending,,%,1,,
+average_grade,Indicator,Average grade,,,0,,
+average_spend,Indicator,Average spend,,£,0,,

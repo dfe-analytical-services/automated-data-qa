@@ -2,15 +2,15 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,National,E92000001,England,,,,,,Total,State funded,614,475,77.4,2,551
 2020,Academic year,National,E92000001,England,,,,,,Girls,State funded,527,442,83.9,4,348
 2020,Academic year,National,E92000001,England,,,,,,Boys,State funded,87,47,54,7,391
-2021,Academic year,National,E92000001,England,,,,,,Total,State funded,909,833,91.6,9,339
-2021,Academic year,National,E92000001,England,,,,,,Girls,State funded,586,95,16.2,5,411
-2021,Academic year,National,E92000001,England,,,,,,Boys,State funded,323,301,93.2,7,202
+2021,Academic year,National,E92000001,England,,,,,,Total,State funded,614,475,77.4,2,551
+2021,Academic year,National,E92000001,England,,,,,,Girls,State funded,527,442,83.9,4,348
+2021,Academic year,National,E92000001,England,,,,,,Boys,State funded,87,47,54,7,391
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Total,State funded,818,524,64.1,1,220
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Girls,State funded,512,260,50.8,2,776
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Boys,State funded,306,27,8.8,4,300
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Girls,State funded,z,260,50.8,2,776
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Boys,State funded,306,27,8.8,z,300
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barnet,E09000003,302,Total,State funded,374,28,7.5,1,553
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barnet,E09000003,302,Girls,State funded,104,85,81.7,3,494
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Barnet,E09000003,302,Boys,State funded,270,49,18.1,4,902
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Barnet,E09000003,302,Boys,State funded,270,z,18.1,4,902
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Barnsley,E08000016,370,Total,State funded,710,1,0.1,3,990
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Barnsley,E08000016,370,Girls,State funded,554,70,12.6,7,823
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Barnsley,E08000016,370,Boys,State funded,156,71,45.5,6,998
@@ -18,18 +18,18 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Bath and North East Somerset,E06000022,800,Girls,State funded,600,434,72.3,3,762
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Bath and North East Somerset,E06000022,800,Boys,State funded,40,5,12.5,7,389
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Bedford,E06000055,822,Total,State funded,636,569,89.5,1,681
-2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Bedford,E06000055,822,Girls,State funded,404,113,28,5,914
+2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Bedford,E06000055,822,Girls,State funded,404,113,z,5,914
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Bedford,E06000055,822,Boys,State funded,232,132,56.9,4,359
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Bexley,E09000004,303,Total,State funded,698,349,50,3,844
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Bexley,E09000004,303,Girls,State funded,208,80,38.5,9,823
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Bexley,E09000004,303,Boys,State funded,490,28,5.7,2,588
-2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Birmingham,E08000025,330,Total,State funded,86,21,24.4,3,317
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Bexley,E09000004,303,Boys,State funded,490,z,5.7,2,588
+2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Birmingham,E08000025,330,Total,State funded,z,21,24.4,3,317
 2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Birmingham,E08000025,330,Girls,State funded,53,37,69.8,6,183
 2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Birmingham,E08000025,330,Boys,State funded,33,19,57.6,2,115
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackburn with Darwen,E06000008,889,Total,State funded,605,165,27.3,6,610
-2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackburn with Darwen,E06000008,889,Girls,State funded,347,338,97.4,4,744
+2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackburn with Darwen,E06000008,889,Girls,State funded,347,338,97.4,4,z
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackburn with Darwen,E06000008,889,Boys,State funded,258,244,94.6,4,928
-2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackpool,E06000009,890,Total,State funded,152,85,55.9,9,639
+2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackpool,E06000009,890,Total,State funded,152,85,55.9,z,639
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackpool,E06000009,890,Girls,State funded,142,65,45.8,3,940
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Blackpool,E06000009,890,Boys,State funded,10,3,30,8,791
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Bolton,E08000001,350,Total,State funded,489,298,60.9,5,742
@@ -40,7 +40,7 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,"Bournemouth, Christchurch and Poole",E06000058,839,Boys,State funded,191,89,46.6,1,181
 2020,Academic year,Local authority,E92000001,England,E12000008,South East,Bracknell Forest,E06000036,867,Total,State funded,728,283,38.9,2,767
 2020,Academic year,Local authority,E92000001,England,E12000008,South East,Bracknell Forest,E06000036,867,Girls,State funded,160,159,99.4,8,651
-2020,Academic year,Local authority,E92000001,England,E12000008,South East,Bracknell Forest,E06000036,867,Boys,State funded,568,181,31.9,8,192
+2020,Academic year,Local authority,E92000001,England,E12000008,South East,Bracknell Forest,E06000036,867,Boys,State funded,568,z,31.9,8,192
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Bradford,E08000032,380,Total,State funded,865,146,16.9,8,892
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Bradford,E08000032,380,Girls,State funded,739,478,64.7,9,840
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Bradford,E08000032,380,Boys,State funded,126,46,36.5,6,232
@@ -71,14 +71,14 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Camden,E09000007,202,Total,State funded,376,188,50,1,398
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Camden,E09000007,202,Girls,State funded,363,56,15.4,4,762
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Camden,E09000007,202,Boys,State funded,13,11,84.6,7,819
-2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Central Bedfordshire,E06000056,823,Total,State funded,394,164,41.6,9,751
+2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Central Bedfordshire,E06000056,823,Total,State funded,394,164,41.6,9,z
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Central Bedfordshire,E06000056,823,Girls,State funded,42,35,83.3,3,155
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Central Bedfordshire,E06000056,823,Boys,State funded,352,170,48.3,4,744
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire East,E06000049,895,Total,State funded,415,178,42.9,2,544
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire East,E06000049,895,Girls,State funded,216,152,70.4,1,748
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire East,E06000049,895,Boys,State funded,199,3,1.5,9,188
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire West and Chester,E06000050,896,Total,State funded,588,114,19.4,9,780
-2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire West and Chester,E06000050,896,Girls,State funded,311,42,13.5,3,709
+2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire West and Chester,E06000050,896,Girls,State funded,311,42,z,3,709
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Cheshire West and Chester,E06000050,896,Boys,State funded,277,31,11.2,5,930
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Cornwall,E06000052,908,Total,State funded,130,106,81.5,6,671
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Cornwall,E06000052,908,Girls,State funded,23,22,95.7,9,284
@@ -114,15 +114,15 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Dudley,E08000027,332,Girls,State funded,194,54,27.8,3,838
 2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Dudley,E08000027,332,Boys,State funded,570,135,23.7,4,868
 2020,Academic year,Local authority,E92000001,England,E12000001,North East,Durham,E06000047,840,Total,State funded,916,551,60.2,8,180
-2020,Academic year,Local authority,E92000001,England,E12000001,North East,Durham,E06000047,840,Girls,State funded,282,217,77,9,599
-2020,Academic year,Local authority,E92000001,England,E12000001,North East,Durham,E06000047,840,Boys,State funded,634,161,25.4,8,415
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Ealing,E09000009,307,Total,State funded,877,573,65.3,7,222
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Ealing,E09000009,307,Girls,State funded,132,52,39.4,3,478
+2020,Academic year,Local authority,E92000001,England,E12000001,North East,Durham,E06000047,840,Girls,State funded,282,c,77,9,599
+2020,Academic year,Local authority,E92000001,England,E12000001,North East,Durham,E06000047,840,Boys,State funded,634,161,c,8,415
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Ealing,E09000009,307,Total,State funded,c,c,65.3,7,222
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Ealing,E09000009,307,Girls,State funded,c,52,39.4,3,478
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Ealing,E09000009,307,Boys,State funded,745,385,51.7,1,541
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,East Riding of Yorkshire,E06000011,811,Total,State funded,276,227,82.2,9,317
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,East Riding of Yorkshire,E06000011,811,Girls,State funded,245,28,11.4,3,838
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,East Riding of Yorkshire,E06000011,811,Boys,State funded,31,27,87.1,9,745
-2020,Academic year,Local authority,E92000001,England,E12000008,South East,East Sussex,E10000011,845,Total,State funded,517,141,27.3,2,740
+2020,Academic year,Local authority,E92000001,England,E12000008,South East,East Sussex,E10000011,845,Total,State funded,517,141,27.3,~,740
 2020,Academic year,Local authority,E92000001,England,E12000008,South East,East Sussex,E10000011,845,Girls,State funded,234,200,85.5,8,404
 2020,Academic year,Local authority,E92000001,England,E12000008,South East,East Sussex,E10000011,845,Boys,State funded,283,136,48.1,2,978
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Enfield,E09000010,308,Total,State funded,857,220,25.7,1,946
@@ -133,16 +133,16 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Essex,E10000012,881,Boys,State funded,424,55,13,8,148
 2020,Academic year,Local authority,E92000001,England,E12000001,North East,Gateshead,E08000037,390,Total,State funded,734,550,74.9,9,512
 2020,Academic year,Local authority,E92000001,England,E12000001,North East,Gateshead,E08000037,390,Girls,State funded,57,46,80.7,9,788
-2020,Academic year,Local authority,E92000001,England,E12000001,North East,Gateshead,E08000037,390,Boys,State funded,677,555,82,1,741
+2020,Academic year,Local authority,E92000001,England,E12000001,North East,Gateshead,E08000037,390,Boys,State funded,c,555,82,1,741
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Gloucestershire,E10000013,916,Total,State funded,595,116,19.5,9,158
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Gloucestershire,E10000013,916,Girls,State funded,178,110,61.8,8,377
 2020,Academic year,Local authority,E92000001,England,E12000009,South West,Gloucestershire,E10000013,916,Boys,State funded,417,284,68.1,6,343
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Greenwich,E09000011,203,Total,State funded,664,637,95.9,5,150
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Greenwich,E09000011,203,Girls,State funded,83,7,8.4,2,706
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Greenwich,E09000011,203,Girls,State funded,:,7,8.4,:,706
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Greenwich,E09000011,203,Boys,State funded,581,27,4.6,9,237
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Hackney,E09000012,204,Total,State funded,14,7,50,2,926
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Hackney,E09000012,204,Girls,State funded,12,10,83.3,9,233
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Hackney,E09000012,204,Boys,State funded,2,1,50,7,168
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Hackney,E09000012,204,Boys,State funded,2,1,:,:,168
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Halton,E06000006,876,Total,State funded,703,420,59.7,4,936
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Halton,E06000006,876,Girls,State funded,355,336,94.6,4,100
 2020,Academic year,Local authority,E92000001,England,E12000002,North West,Halton,E06000006,876,Boys,State funded,348,87,25,4,213
@@ -155,7 +155,7 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Haringey,E09000014,309,Total,State funded,420,32,7.6,8,916
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Haringey,E09000014,309,Girls,State funded,364,310,85.2,4,944
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Haringey,E09000014,309,Boys,State funded,56,10,17.9,3,955
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Harrow,E09000015,310,Total,State funded,820,242,29.5,2,258
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Harrow,E09000015,310,Total,State funded,820,z,29.5,z,258
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Harrow,E09000015,310,Girls,State funded,550,161,29.3,4,696
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Harrow,E09000015,310,Boys,State funded,270,53,19.6,1,394
 2020,Academic year,Local authority,E92000001,England,E12000001,North East,Hartlepool,E06000001,805,Total,State funded,787,546,69.4,2,135
@@ -169,7 +169,7 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000005,West Midlands,Herefordshire,E06000019,884,Boys,State funded,167,77,46.1,2,353
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Hertfordshire,E10000015,919,Total,State funded,920,603,65.5,8,193
 2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Hertfordshire,E10000015,919,Girls,State funded,746,602,80.7,8,304
-2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Hertfordshire,E10000015,919,Boys,State funded,174,37,21.3,6,222
+2020,Academic year,Local authority,E92000001,England,E12000006,East of England,Hertfordshire,E10000015,919,Boys,State funded,174,c,21.3,6,c
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Hillingdon,E09000017,312,Total,State funded,577,396,68.6,2,514
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Hillingdon,E09000017,312,Girls,State funded,58,9,15.5,4,244
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Hillingdon,E09000017,312,Boys,State funded,519,38,7.3,3,640
@@ -178,7 +178,7 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Hounslow,E09000018,313,Boys,State funded,344,36,10.5,4,333
 2020,Academic year,Local authority,E92000001,England,E12000008,South East,Isle of Wight,E06000046,921,Total,State funded,472,141,29.9,7,656
 2020,Academic year,Local authority,E92000001,England,E12000008,South East,Isle of Wight,E06000046,921,Girls,State funded,364,65,17.9,2,230
-2020,Academic year,Local authority,E92000001,England,E12000008,South East,Isle of Wight,E06000046,921,Boys,State funded,108,23,21.3,8,165
+2020,Academic year,Local authority,E92000001,England,E12000008,South East,Isle of Wight,E06000046,921,Boys,State funded,108,c,c,8,~
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Islington,E09000019,206,Total,State funded,169,106,62.7,3,478
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Islington,E09000019,206,Girls,State funded,164,47,28.7,5,539
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Islington,E09000019,206,Boys,State funded,5,3,60,3,931
@@ -191,7 +191,7 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,"Kingston Upon Hull, City of",E06000010,810,Total,State funded,730,426,58.4,5,439
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,"Kingston Upon Hull, City of",E06000010,810,Girls,State funded,266,261,98.1,2,755
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,"Kingston Upon Hull, City of",E06000010,810,Boys,State funded,464,49,10.6,2,906
-2020,Academic year,Local authority,E92000001,England,E12000007,London,Kingston upon Thames,E09000021,314,Total,State funded,845,563,66.6,3,813
+2020,Academic year,Local authority,E92000001,England,E12000007,London,Kingston upon Thames,E09000021,314,Total,State funded,~,563,66.6,3,~
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Kingston upon Thames,E09000021,314,Girls,State funded,386,371,96.1,3,934
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Kingston upon Thames,E09000021,314,Boys,State funded,459,88,19.2,8,427
 2020,Academic year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,Kirklees,E08000034,382,Total,State funded,500,426,85.2,5,809
@@ -954,11 +954,11 @@ time_period,time_identifier,geographic_level,country_code,country_name,region_co
 2021,Academic year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,,,,Girls,State funded,157,141,89.8,7,268
 2021,Academic year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,,,,Boys,State funded,294,186,63.3,3,872
 2020,Academic year,National,E92000001,England,,,,,,Total,Non-state funded,722,61,8.4,4,246
-2020,Academic year,National,E92000002,England,,,,,,Girls,Non-state funded,41,8,19.5,1,461
-2020,Academic year,National,E92000003,England,,,,,,Boys,Non-state funded,681,103,15.1,2,759
-2021,Academic year,National,E92000004,England,,,,,,Total,Non-state funded,610,346,56.7,5,710
-2021,Academic year,National,E92000005,England,,,,,,Girls,Non-state funded,457,204,44.6,7,344
-2021,Academic year,National,E92000006,England,,,,,,Boys,Non-state funded,153,152,99.3,3,770
+2020,Academic year,National,E92000001,England,,,,,,Girls,Non-state funded,41,8,19.5,1,461
+2020,Academic year,National,E92000001,England,,,,,,Boys,Non-state funded,681,103,15.1,2,759
+2021,Academic year,National,E92000001,England,,,,,,Total,Non-state funded,610,346,56.7,5,710
+2021,Academic year,National,E92000001,England,,,,,,Girls,Non-state funded,457,204,44.6,7,344
+2021,Academic year,National,E92000001,England,,,,,,Boys,Non-state funded,153,152,99.3,3,770
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Total,Non-state funded,700,273,39,1,945
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Girls,Non-state funded,167,6,3.6,8,566
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Boys,Non-state funded,533,353,66.2,4,687

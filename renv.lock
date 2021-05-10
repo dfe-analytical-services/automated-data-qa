@@ -9,13 +9,6 @@
     ]
   },
   "Packages": {
-    "BH": {
-      "Package": "BH",
-      "Version": "1.75.0-0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e4c04affc2cac20c8fec18385cd14691"
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.0",
@@ -30,26 +23,19 @@
       "Repository": "CRAN",
       "Hash": "a94ba44cee3ea571e813721e64184172"
     },
-    "clipr": {
-      "Package": "clipr",
-      "Version": "0.7.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "ebaa97ac99cc2daf04e77eecc7b781d7"
-    },
-    "cpp11": {
-      "Package": "cpp11",
-      "Version": "0.2.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "730eebcc741a5c36761f7d4d0f5e37b8"
-    },
     "crayon": {
       "Package": "crayon",
       "Version": "1.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "e75525c55c70e5f4f78c9960a4b402e9"
+    },
+    "data.table": {
+      "Package": "data.table",
+      "Version": "1.14.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d1b8b1a821ee564a3515fa6c6d5c52dc"
     },
     "dplyr": {
       "Package": "dplyr",
@@ -86,13 +72,6 @@
       "Repository": "CRAN",
       "Hash": "6efd734b14c6471cfe443345f3e35e29"
     },
-    "hms": {
-      "Package": "hms",
-      "Version": "1.0.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "bf552cdd96f5969873afdac7311c7d0d"
-    },
     "lifecycle": {
       "Package": "lifecycle",
       "Version": "1.0.0",
@@ -127,13 +106,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "97def703420c8ab10d8f0e6c72101e02"
-    },
-    "readr": {
-      "Package": "readr",
-      "Version": "1.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "2639976851f71f330264a9c9c3d43a61"
     },
     "renv": {
       "Package": "renv",
