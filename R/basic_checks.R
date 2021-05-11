@@ -121,7 +121,9 @@ for (indicator in all_of(indicators)){
 
 # - Sums (YoY, Geographies, Filters)
 
-# - Duplicated cols (mainly for indicators for users)
+
+
+
 
 # Missing data checks, counting suppressed cells --------------------------
 # How many cells are suppressed?
@@ -140,6 +142,14 @@ duplicated_rows <- data %>%
   select(-filters) %>% 
   get_dupes()
 
+
+# Duplicated columns ------------------------------------------------------
+# IGNORING column headings, are there any columns that are identical?
+duplicated_cols <- data %>% 
+  select(-filters) %>% 
+  t() %>% #flip the data round so cols become rows
+  as.data.frame() %>% 
+  get_dupes()
 
 
 # Scatterplots  -----------------------------------------------------------
