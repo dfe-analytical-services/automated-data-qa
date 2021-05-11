@@ -1,4 +1,4 @@
-# RECOMMENDED AUTOMATED QA CHECKS -
+# RECOMMENDED BASIC AUTOMATED QA CHECKS -
 library(dplyr)
 library(data.table)
 library(tidyr)
@@ -115,10 +115,7 @@ for (indicator in all_of(indicators)){
 
 # Set threshold based on last time period's values
 
-thresh = 0.2 #if value is 20% higher than last time period, flag it in table
-current_time = "2021" #set the time period for data you want to check
-time_compare = "2020" #set the comparator (e.g. last year)
-
+get_outliers <- function(indicator,thresh, current_time,time_compare){
 outliers_group <- data %>% 
   #Set geographic level here if you want to change to region/LA
   filter(geographic_level == "Local authority") %>% 
@@ -129,12 +126,14 @@ outliers_group <- data %>%
   mutate(thresh_indicator_big = get(time_compare) * (1+thresh),
          thresh_indicator_small = get(time_compare) * (1-thresh),
          flag_big = get(current_time) >= thresh_indicator_big,
-         flag_small = get(current_time) <= thresh_indicator_small)
+         flag_small = get(current_time) <= thresh_indicator_small)}
+
+         
+get_outliers("average_spend",thresh = 0.2,current_time = "2021",time_compare = "2020")
 
 above_threshold <- outliers_group %>%  filter(flag_big == "TRUE")
 
 below_threshold<- outliers_group %>%  filter(flag_small == "TRUE")
-         
 
 # Missing data checks, counting suppressed cells --------------------------
 # How many cells are suppressed?
