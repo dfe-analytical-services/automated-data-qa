@@ -5,15 +5,12 @@ library(tidyr)
 library(janitor)
 library(plotly)
 
-
-
 # STEP 1: read in the data ------------------------------------------------
 data <- fread("data/testing2.csv") #Your file path here
-metadata <- fread("data/testing.meta.csv") #Your metadata file path here
+metadata <- fread("data/testing2.meta.csv") #Your metadata file path here
 
 
 # STEP 2: Use metadata to get list of filters and indicators --------------
-
 #Get list of filters required in EES
 auto_filters <- c("time_period","time_identifier","geographic_level","country_name","country_code","region_name","region_code","la_name","old_la_code","new_la_code") 
 
@@ -56,7 +53,7 @@ for (indicator in all_of(indicators)){
     filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
     group_by(time_period) %>% 
     mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    filter(get(indicator) == max(get(indicator))) %>% 
+    filter(get(indicator) == max(get(indicator),na.rm=TRUE)) %>% 
     select(all_of(filters),indicator) %>% 
     gather(indicator, "Maximum",-all_of(filters))
 
@@ -81,7 +78,7 @@ for (indicator in all_of(indicators)){
     filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
     group_by(time_period) %>% 
     mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    filter(get(indicator) == min(get(indicator))) %>% 
+    filter(get(indicator) == min(get(indicator),na.rm=TRUE)) %>% 
     select(all_of(filters),indicator) %>% 
     gather(indicator, "Minimum",-all_of(filters))
   
@@ -104,7 +101,7 @@ for (indicator in all_of(indicators)){
     filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
     group_by(time_period) %>% 
     mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    mutate(!!indicator := mean(get(indicator))) %>% 
+    mutate(!!indicator := mean(get(indicator),na.rm=TRUE)) %>% 
     select(time_period,indicator) %>% 
     distinct %>% 
     gather(indicator, "Average",-time_period)
@@ -116,14 +113,28 @@ for (indicator in all_of(indicators)){
 
 # Extreme values ----------------------------------------------------------
 
+# Set threshold based on last time period's values
 
+thresh = 0.2 #if value is 20% higher than last time period, flag it in table
+current_time = "2021" #set the time period for data you want to check
+time_compare = "2020" #set the comparator (e.g. last year)
 
+outliers_group <- data %>% 
+  #Set geographic level here if you want to change to region/LA
+  filter(geographic_level == "Local authority") %>% 
+  group_by(time_period) %>% 
+  mutate(!!indicator := as.numeric(get(indicator))) %>% 
+  select(all_of(filters),indicator) %>% 
+  spread(time_period,indicator) %>% 
+  mutate(thresh_indicator_big = get(time_compare) * (1+thresh),
+         thresh_indicator_small = get(time_compare) * (1-thresh),
+         flag_big = get(current_time) >= thresh_indicator_big,
+         flag_small = get(current_time) <= thresh_indicator_small)
 
-# - Sums (YoY, Geographies, Filters)
+above_threshold <- outliers_group %>%  filter(flag_big == "TRUE")
 
-
-
-
+below_threshold<- outliers_group %>%  filter(flag_small == "TRUE")
+         
 
 # Missing data checks, counting suppressed cells --------------------------
 # How many cells are suppressed?
@@ -140,7 +151,8 @@ suppressed_cell_count <- data %>%
 # Might be fine but worth double checking
 duplicated_rows <- data %>% 
   select(-filters) %>% 
-  get_dupes()
+  get_dupes() %>% 
+  distinct()
 
 
 # Duplicated columns ------------------------------------------------------
@@ -149,8 +161,50 @@ duplicated_cols <- data %>%
   select(-filters) %>% 
   t() %>% #flip the data round so cols become rows
   as.data.frame() %>% 
-  get_dupes()
+  get_dupes() %>% 
+  distinct()
 
+
+
+
+# BELOW CHECKS NOT GENERALISED BUT CAN BE TEMPLATES -----------------------
+
+# Sum checks --------------------------------------------------------------
+
+# Function to compare LA subtotals match region totals.
+# Outputs a table of mismatches
+check_LA_region_totals <- function(indicator){
+  
+data_region <- data %>% 
+  #filter for regional level data
+  filter(geographic_level == "Regional") %>% 
+  #select all descriptive variables and indicator of choice
+  select(time_period,region_name,region_code,all_of(publication_filters),indicator) %>% 
+  #make sure indicator is numeric
+  mutate(!!indicator := as.numeric(get(indicator))) %>% 
+  #order by year, region code then custom filter groups
+  arrange(time_period,region_code,get(publication_filters))
+
+data_la_aggregate <- data %>% 
+  #filter for LA level data
+  filter(geographic_level == "Local authority") %>% 
+  #select descriptive varaibles and indicator of choice
+  select(time_period,region_name,region_code,all_of(publication_filters),indicator) %>% 
+  #group by all descriptive variables
+  group_by(across(-c(indicator))) %>% 
+  #summarise number of pupils for above groupings
+  summarise(!!indicator := sum(as.numeric(get(indicator),na.rm = TRUE))) %>% 
+  #order by year, region code then custom filter groups
+  arrange(time_period,region_code,get(publication_filters))
+
+#check and see if the tables differ - any rows will show which region does not add up
+setdiff(data_region,data_la_aggregate)
+}
+
+
+#E.g. of how you'd apply it here
+avg_spend_LA_region_check <- check_LA_region_totals("average_spend")
+avg_grade_LA_region_check <- check_LA_region_totals("average_grade")
 
 # Scatterplots  -----------------------------------------------------------
 # Useful for YoY trend analysis/picking outliers:
@@ -164,7 +218,7 @@ data_prep_example <- data %>%
   select(time_period,region_name,la_name,all_of(publication_filters),indicator) %>% 
   mutate(!!indicator := as.numeric(get(indicator))) %>% 
   spread(time_period,indicator) %>% 
-  #need to generalise this??
+  #Make sure you've defined what each filter should be
   filter(gender == "Total",
          school_type == "State funded")
 
@@ -186,20 +240,21 @@ plot_example
 }
 
 # apply to indicator here
-create_plot_LA(data,"number_on_roll", "2021", "2020")
+create_plot_LA(data,"number_schools_responded", "2021", "2020")
 
 create_plot_LA(data, "average_spend", "2021","2020")
 
 
 
-# TESTING - add dropdowns to save that fitering step? ------------------------------------
+# Scatter plot with dropdowns for a filter ------------------------------------
 
 data_prep_example <- data %>% 
   filter(geographic_level == "Local authority") %>% 
   select(time_period,region_name,la_name,all_of(publication_filters),indicator) %>% 
   mutate(!!indicator := as.numeric(get(indicator))) %>% 
-  spread(time_period,indicator)
-
+  spread(time_period,indicator) %>% 
+  #Make sure you've defined what each filter should be
+  filter(school_type == "State funded")
 
 plot_example <- data_prep_example %>%
   plot_ly(
@@ -210,29 +265,19 @@ plot_example <- data_prep_example %>%
     text = ~paste("Indicator:", indicator , "<br>LA: ", la_name, '<br>', time_x, ":", get(time_x),'<br>', time_y, ":", get(time_y)),
     hoverinfo = 'text',
     mode = 'markers',
+    #Need to define your filters here
     transforms = list(
       list(
         type = 'filter',
         target = ~gender,
         operation = '=',
-        value = unique(data_prep_example$gender)[1]),
-      list(
-        type = 'filter',
-        target = ~school_type,
-        operation = '=',
-        value = unique(data_prep_example$school_type)[1]
-      )
+        value = unique(data_prep_example$gender)[1])
     )) %>% 
   layout(
     xaxis = list(title = time_x),
     yaxis = list(title = time_y),
+    #Then define again down here
     updatemenus = list(
-      list(
-        y = 1000, #trying to fix the y location for this! Not working atm...
-        type = 'dropdown',
-        active = 0,
-        buttons = apply(as.data.frame(unique(data_prep_example$school_type)), 1,
-                        function(x) list(method = 'restyle',args = list('transforms[1].value',x),label = x))),
       list(
         y = 800,
         type = 'dropdown',
