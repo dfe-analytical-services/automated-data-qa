@@ -55,7 +55,7 @@ DT::datatable(average_results)
 ### Above threshold
 The below results are above have seen an increase of >20% on last year.
 ```{R extreme_spend_high, echo=FALSE, warning = FALSE}
-outliers<- get_outliers("average_spend",thresh = 0.2,current_time = "2021",time_compare = "2020")
+outliers<- get_outliers("average_spend", geog_level = "Local authority",thresh = 0.2,current_time = "2021",time_compare = "2020")
 
 above_threshold <- outliers %>%  filter(flag_big == "TRUE") %>% 
   select(-c("thresh_indicator_big","thresh_indicator_small","flag_big","flag_small"))
@@ -77,7 +77,7 @@ DT::datatable(below_threshold)
 ### Above threshold
 The below results are above have seen an increase of >20% on last year.
 ```{R extreme_attending_high, echo=FALSE, warning = FALSE}
-outliers<- get_outliers("number_attending",thresh = 0.2,current_time = "2021",time_compare = "2020")
+outliers<- get_outliers("number_attending",geog_level = "Local authority",thresh = 0.2,current_time = "2021",time_compare = "2020")
 
 above_threshold <- outliers %>%  filter(flag_big == "TRUE")%>% 
   select(-c("thresh_indicator_big","thresh_indicator_small","flag_big","flag_small"))

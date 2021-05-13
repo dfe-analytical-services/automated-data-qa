@@ -120,10 +120,10 @@ for (indicator in all_of(indicators)){
 
 # Set threshold based on last time period's values
 
-get_outliers <- function(indicator,thresh, current_time,time_compare){
+get_outliers <- function(indicator, geog_level, thresh, current_time,time_compare){
 data %>% 
   #Set geographic level here if you want to change to region/LA
-  filter(geographic_level == "Local authority") %>% 
+  filter(geographic_level == geog_level) %>% 
   group_by(time_period) %>% 
   mutate(!!indicator := as.numeric(get(indicator))) %>% 
   select(all_of(filters),indicator) %>% 
@@ -134,16 +134,17 @@ data %>%
          flag_small = get(current_time) <= thresh_indicator_small)}
 
 #Demo how you'd use the function here:         
-# avg_spend_outliers<- get_outliers("average_spend",thresh = 0.2,current_time = "2021",time_compare = "2020")
+# avg_spend_outliers<- get_outliers("average_spend","Local authority",thresh = 0.2,current_time = "2021",time_compare = "2020")
 # 
 # above_threshold <- avg_spend_outliers %>%  filter(flag_big == "TRUE")
 # 
 # below_threshold<- avg_spend_outliers %>%  filter(flag_small == "TRUE")
 
+
 # Missing data checks, counting suppressed cells --------------------------
 # How many cells are suppressed?
 suppressed_cell_count <- data %>%  
-  select(-filters) %>%
+  select(-all_of(filters)) %>%
   unlist() %>% 
   table() %>% 
   as.data.frame() %>% 
