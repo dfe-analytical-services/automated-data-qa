@@ -134,7 +134,7 @@ data %>%
          flag_small = get(current_time) <= thresh_indicator_small)}
 
 #Demo how you'd use the function here:         
-# avg_spend_outliers<- get_outliers("average_spend","Local authority",thresh = 0.2,current_time = "2021",time_compare = "2020")
+# avg_spend_outliers<- get_outliers("average_spend","Local authority",thresh = 0.1,current_time = "2021",time_compare = "2020")
 # 
 # above_threshold <- avg_spend_outliers %>%  filter(flag_big == "TRUE")
 # 
@@ -149,7 +149,9 @@ suppressed_cell_count <- data %>%
   table() %>% 
   as.data.frame() %>% 
   filter(. %in% c("z","c",":","~")) #also include non-standard ones here? Could add warning to tell analysts to stick to GSS guidance
+#Add % of total cells
 
+#anything not numeric - additional check
 
 # Duplicated rows ---------------------------------------------------------
 # IGNORING filter labels, are there any rows that are identical?
@@ -266,43 +268,43 @@ plot_example
 
 # Scatter plot with dropdowns for a filter ------------------------------------
 # 
-# data_prep_example <- data %>%
-#   filter(geographic_level == "Local authority") %>%
-#   select(time_period,region_name,la_name,all_of(publication_filters),indicator) %>%
-#   mutate(!!indicator := as.numeric(get(indicator))) %>%
-#   spread(time_period,indicator) %>%
-#   #Make sure you've defined what each filter should be
-#   filter(school_type == "State funded")
-# 
-# plot_example <- data_prep_example %>%
-#   plot_ly(
-#     type = 'scatter',
-#     x = ~ get(time_x),
-#     y = ~ get(time_y),
-#     color = ~region_name,
-#     text = ~paste("Indicator:", indicator , "<br>LA: ", la_name, '<br>', time_x, ":", get(time_x),'<br>', time_y, ":", get(time_y)),
-#     hoverinfo = 'text',
-#     mode = 'markers',
-#     #Need to define your filters here
-#     transforms = list(
-#       list(
-#         type = 'filter',
-#         target = ~gender,
-#         operation = '=',
-#         value = unique(data_prep_example$gender)[1])
-#     )) %>%
-#   layout(
-#     xaxis = list(title = time_x),
-#     yaxis = list(title = time_y),
-#     #Then define again down here
-#     updatemenus = list(
-#       list(
-#         y = 800,
-#         type = 'dropdown',
-#         active = 0,
-#         buttons = apply(as.data.frame(unique(data_prep_example$gender)), 1,
-#                         function(x) list(method = 'restyle',args = list('transforms[0].value',x),label = x)))
-# 
-#     )
-#   )
-# 
+data_prep_example <- data %>%
+  filter(geographic_level == "Local authority") %>%
+  select(time_period,region_name,la_name,all_of(publication_filters),indicator) %>%
+  mutate(!!indicator := as.numeric(get(indicator))) %>%
+  spread(time_period,indicator) %>%
+  #Make sure you've defined what each filter should be
+  filter(school_type == "State funded")
+
+plot_example <- data_prep_example %>%
+  plot_ly(
+    type = 'scatter',
+    x = ~ get(time_x),
+    y = ~ get(time_y),
+    color = ~region_name,
+    text = ~paste("Indicator:", indicator , "<br>LA: ", la_name, '<br>', time_x, ":", get(time_x),'<br>', time_y, ":", get(time_y)),
+    hoverinfo = 'text',
+    mode = 'markers',
+    #Need to define your filters here
+    transforms = list(
+      list(
+        type = 'filter',
+        target = ~gender,
+        operation = '=',
+        value = unique(data_prep_example$gender)[1])
+    )) %>%
+  layout(
+    xaxis = list(title = time_x),
+    yaxis = list(title = time_y),
+    #Then define again down here
+    updatemenus = list(
+      list(
+        y = 800,
+        type = 'dropdown',
+        active = 0,
+        buttons = apply(as.data.frame(unique(data_prep_example$gender)), 1,
+                        function(x) list(method = 'restyle',args = list('transforms[0].value',x),label = x)))
+
+    )
+  )
+
