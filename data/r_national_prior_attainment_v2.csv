@@ -1,0 +1,301 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,version,exam_cohort,level_of_study,institution_type,characteristic_value,prior_attainment,retention_in_scope,retained,retained_and_assessed,2yr_retention_in_scope,2yr_retained
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,20752,79.01407093,73.04356207,20535,49.03822742
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,191671,92.70364322,91.10872276,189707,80.86417475
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 7+,41377,98.72151195,98.38315973,41038,97.33174131
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,257237,92.4637591,90.67280368,254525,80.61919261
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Unknown prior attainment,3437,84.95781205,79.98254292,3245,54.79198767
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,5585,74.25246195,66.24888093,5515,42.70172257
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,32716,88.70583201,86.36752659,32198,72.30262749
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,3199,97.56173804,97.03032198,3151,94.85877499
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,41603,87.2605341,84.28238348,40967,69.88063563
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,103,13.59223301,3.883495146,103,3.883495146
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,15127,80.76287433,75.54042441,14980,51.34178905
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,158746,93.53684502,92.09869855,157302,82.63404153
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,38076,98.82340582,98.50299401,37786,97.56258932
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,212475,93.51311919,91.99858807,210574,83.01879624
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,526,68.63117871,64.25855513,506,54.34782609
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,40,82.5,77.5,40,60
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,209,85.64593301,81.33971292,207,67.63285024
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,102,97.05882353,96.07843137,101,88.11881188
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,3159,90.40835708,85.66001899,2984,58.71313673
+201718,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,2808,90.63390313,85.71937322,2636,56.86646434
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,21081,78.90991888,72.80963901,20851,48.45331159
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,192886,92.66820816,91.04652489,190872,80.68548556
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 7+,41950,98.70560191,98.3647199,41574,97.31803531
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,259559,92.42176153,90.59520186,256736,80.43437617
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Unknown prior attainment,3642,85.20043932,80.14827018,3439,56.29543472
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,5687,74.06365395,65.95744681,5611,42.07806095
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,32963,88.61147347,86.22091436,32439,72.04599402
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,3227,97.58289433,97.02510071,3178,94.87098804
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,41982,87.1444905,84.10271069,41332,69.56111487
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,105,14.28571429,4.761904762,104,3.846153846
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,15352,80.69306931,75.33220427,15198,50.76983814
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,159706,93.51683719,92.05728025,158218,82.47607731
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,38619,98.80628706,98.48520158,38294,97.54791873
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,214212,93.48869344,91.94769667,212224,82.85679282
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,535,68.41121495,64.11214953,514,54.28015564
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,42,83.33333333,78.57142857,42,61.9047619
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,217,84.33179724,80.1843318,215,66.51162791
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,104,96.15384615,95.19230769,102,87.25490196
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,3365,90.34175334,85.49777117,3180,60.09433962
+201718,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,3002,90.67288474,85.64290473,2821,58.59624247
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,11183,87.9370473,77.50156488,10871,76.81905988
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,18131,92.14053279,86.84573383,17720,82.31941309
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 7+,224,93.75,91.51785714,215,82.3255814
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,29951,90.39764949,83.10240059,29164,79.96159649
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Unknown prior attainment,413,78.69249395,65.85956416,358,57.26256983
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,3542,85.06493506,72.98136646,3421,74.18883367
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,4068,91.17502458,84.48869223,3950,82.02531646
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,21,100,90.47619048,19,100
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,7645,88.20143885,79.01896664,7403,78.30609212
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,14,0,0,13,0
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,7634,89.27167933,79.59130207,7444,78.03600215
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,14041,92.42931415,87.53650025,13749,82.41326642
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,201,93.53233831,92.039801,194,81.44329897
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,21957,91.21464681,84.67003689,21461,80.7651088
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,81,58.02469136,48.14814815,74,47.2972973
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,7,85.71428571,85.71428571,6,66.66666667
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,22,86.36363636,81.81818182,21,76.19047619
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,2,50,50,2,0
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,349,87.10601719,73.92550143,300,63.33333333
+201718,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,318,87.42138365,73.27044025,271,62.73062731
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,5497,88.63016191,74.89539749,5208,81.70122888
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,6371,92.60712604,82.79704913,5990,86.64440735
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 7+,78,84.61538462,71.79487179,66,80.3030303
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,12114,90.60591052,78.80964174,11402,84.18698474
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Unknown prior attainment,168,82.14285714,58.92857143,138,73.1884058
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,1682,87.2175981,70.80856124,1581,79.88614801
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,1384,90.96820809,79.55202312,1284,84.03426791
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,7,71.42857143,71.42857143,6,66.66666667
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,3089,88.63709938,74.49012625,2886,81.4968815
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,16,43.75,25,15,40
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,3806,89.28008408,76.7472412,3620,82.51381215
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,4983,93.07645996,83.72466386,4702,87.36707784
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,71,85.91549296,71.83098592,60,81.66666667
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,8904,91.32973944,80.50314465,8421,85.1680323
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,44,79.54545455,54.54545455,39,71.79487179
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,9,77.77777778,55.55555556,7,71.42857143
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,4,75,50,4,75
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,0,z,z,0,z
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,121,87.60330579,64.46280992,95,78.94736842
+201718,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,108,88.88888889,65.74074074,84,79.76190476
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 0 to < 4,34093,88.24978735,75.29991494,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 4 to < 7,5688,90.18987342,81.7862166,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 7+,39,89.74358974,74.35897436,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,All priors including unknown prior attainment,41144,88.31421349,75.98191717,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Unknown prior attainment,1324,81.87311178,68.65558912,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,13073,85.84869579,70.99365104,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,1541,88.18948735,78.19597664,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 7+,8,75,50,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,14800,85.66216216,71.30405405,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Unknown prior attainment,178,50.56179775,35.39325843,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,20980,89.76167779,77.99809342,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,4139,90.91568012,83.08770234,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 7+,28,92.85714286,78.57142857,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,25645,89.72119322,78.52212907,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,498,77.91164659,62.65060241,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,40,80,67.5,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,8,100,100,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,3,100,100,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,699,92.84692418,81.83118741,z,z
+201718,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,648,93.51851852,82.40740741,z,z
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,12979,72.47091455,65.18221743,12903,51.12764473
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,178894,90.98907733,89.23105303,177168,84.30642102
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 7+,44093,98.65511532,98.2627628,43724,97.90732778
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,239124,91.29489303,89.45358893,236838,84.73513541
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Unknown prior attainment,3158,83.21722609,78.81570614,3043,62.93131778
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,3473,66.74344947,57.41433919,3456,43.28703704
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,31000,86.31612903,83.6483871,30590,76.94344557
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,3733,97.66943477,97.16046076,3687,96.63683211
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,38266,85.51978257,82.45962473,37793,75.67009764
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,60,5,3.333333333,60,3.333333333
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,9476,74.53566906,67.99282398,9417,53.934374
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,147734,91.97002721,90.40166786,146421,85.84765846
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,40277,98.7511483,98.36879609,39957,98.04289611
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,197831,92.45467091,90.88666589,196133,86.73094278
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,344,56.97674419,53.77906977,338,45.85798817
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,30,83.33333333,76.66666667,30,73.33333333
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,160,90.625,90,157,81.52866242
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,83,96.38554217,96.38554217,80,88.75
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,3027,88.50346878,84.20878758,2912,67.96016484
+201819,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,2754,88.1989833,83.58750908,2645,66.46502836
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,13276,72.49924676,65.08737572,13189,50.26158162
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,180201,90.96786366,89.13824008,178448,84.1180624
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 7+,44751,98.62796362,98.18998458,44349,97.87819342
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,241598,91.27020919,89.34842176,239235,84.52985558
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Unknown prior attainment,3370,83.67952522,78.7537092,3249,64.05047707
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,3575,66.7972028,57.37062937,3548,42.27733935
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,31227,86.23626989,83.51746886,30812,76.66818123
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,3783,97.67380386,97.11868887,3734,96.62560257
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,38645,85.43149178,82.30560228,38154,75.30796247
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,60,5,3.333333333,60,3.333333333
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,9671,74.57346707,67.90404302,9611,53.13703049
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,148811,91.96094375,90.31657606,147476,85.67699151
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,40881,98.72067709,98.29260537,40531,98.01139868
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,199716,92.44176731,90.79993591,197965,86.55368373
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,353,57.50708215,54.10764873,347,46.39769452
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,30,83.33333333,76.66666667,30,73.33333333
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,163,90.79754601,90.18404908,160,81.875
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,87,96.55172414,96.55172414,84,89.28571429
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,3237,88.69323448,83.87395737,3116,68.8703466
+201819,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,2957,88.40040582,83.22624281,2842,67.48768473
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,18713,81.64912093,71.25527708,18258,68.4686165
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,34067,89.35039775,83.92872868,33370,79.24782739
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 7+,366,94.53551913,92.34972678,356,88.20224719
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,53841,86.53628276,79.34287996,52609,75.33121709
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Unknown prior attainment,695,75.97122302,65.4676259,625,59.36
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,5855,78.73612297,66.09735269,5706,64.40588854
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,7988,86.40460691,79.25638458,7799,75.80459033
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,42,85.71428571,83.33333333,40,77.5
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,13918,83.0004311,73.55223452,13578,70.84990426
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,33,12.12121212,3.03030303,33,6.060606061
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,12837,82.96330918,73.59975072,12532,70.31599106
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,26050,90.25335893,85.36660269,25542,80.29911518
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,321,95.63862928,93.45794393,313,89.45686901
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,39337,87.78249485,81.44240791,38507,76.99379334
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,129,48.8372093,39.53488372,120,38.33333333
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,21,90.47619048,76.19047619,20,70
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,29,89.65517241,79.31034483,29,79.31034483
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,3,100,100,3,100
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,586,86.86006826,75.93856655,524,69.27480916
+201819,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,533,86.49155722,75.6097561,472,68.43220339
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,8245,84.97271073,68.25955124,7904,74.03846154
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,11806,90.19142809,81.0943588,11281,77.98953993
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 7+,122,96.72131148,91.80327869,115,87.82608696
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,20447,87.93955103,75.72749059,19538,76.25652574
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Unknown prior attainment,274,76.27737226,62.04379562,238,62.18487395
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,2496,82.13141026,64.34294872,2382,70.78085642
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,2749,87.01345944,75.55474718,2607,73.14921366
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,15,93.33333333,93.33333333,14,78.57142857
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,5272,84.5599393,70.14415781,5015,71.90428714
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,12,16.66666667,8.333333333,12,16.66666667
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,5741,86.18707542,69.97038843,5515,75.4306437
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,9043,91.1533783,82.78226252,8660,79.43418014
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,107,97.19626168,91.58878505,101,89.10891089
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,14967,89.11605532,77.75105232,14345,77.80411293
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,76,56.57894737,47.36842105,69,46.37681159
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,8,100,62.5,7,85.71428571
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,14,92.85714286,78.57142857,14,85.71428571
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,0,z,z,0,z
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,208,88.94230769,71.63461538,178,74.15730337
+201819,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,186,88.17204301,71.50537634,157,72.61146497
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 0 to < 4,5804,87.69813921,51.82632667,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 4 to < 7,1651,89.15808601,70.44215627,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 7+,21,95.23809524,76.19047619,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,All priors including unknown prior attainment,7745,87.87604906,55.93285991,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Unknown prior attainment,269,83.27137546,53.90334572,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,2187,84.86511203,47.87379973,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,455,87.25274725,66.37362637,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 7+,8,100,62.5,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,2689,84.90145035,50.76236519,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Unknown prior attainment,39,56.41025641,28.20512821,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,3610,89.50138504,54.26592798,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,1196,89.88294314,71.98996656,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 7+,13,92.30769231,84.61538462,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,4910,89.40936864,58.65580448,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,91,79.12087912,53.84615385,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,7,42.85714286,28.57142857,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,0,z,z,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,0,z,z,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,146,91.09589041,59.5890411,z,z
+201819,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,139,93.52517986,61.15107914,z,z
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,8386,73.76580014,66.92105891,8271,61.09297546
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,163578,91.0036802,89.41789238,160338,87.33488007
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Priors 7+,53189,98.5918141,98.29852037,52346,97.98456425
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,228289,92.06619679,90.52253941,223844,88.58133343
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Total,Unknown prior attainment,3136,85.74617347,79.36862245,2889,66.07822776
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,2262,70.99911583,63.17418214,2229,56.70704352
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,28342,86.41591984,83.94961541,27752,81.01037763
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,4680,97.26495726,96.73076923,4572,96.17235346
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,35343,86.78097502,84.21186656,34602,81.34211895
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,59,35.59322034,23.72881356,49,6.12244898
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,6109,74.80766083,68.32542151,6027,62.76754604
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,135125,91.9666975,90.56651249,132481,88.66177037
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,48446,98.72228873,98.45188457,47713,98.16402238
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,190174,93.09527065,91.81381261,186611,90.19886288
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,494,76.11336032,72.46963563,390,61.79487179
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,15,66.66666667,60,15,40
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,111,90.09009009,87.38738739,105,84.76190476
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,63,96.82539683,96.82539683,61,93.44262295
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,2772,88.85281385,82.3953824,2631,69.06119346
+201920,Academic year,National,E92000001,England,Final,A level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,2583,88.7340302,81.95896245,2450,67.95918367
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,8702,74.00597564,66.96161802,8579,59.20270428
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,164917,90.98031131,89.37465513,161616,87.00190575
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Priors 7+,53770,98.57727357,98.28528919,52880,97.96898638
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,230739,92.03212287,90.45978356,226164,88.23110663
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Total,Unknown prior attainment,3350,85.58208955,79.31343284,3089,66.46163807
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,2383,71.17079312,62.94586655,2349,54.40613027
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,28594,86.3712667,83.87773659,27993,80.56657021
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,4706,97.23756906,96.70633234,4596,96.10530896
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,35746,86.70340737,84.06814749,34990,80.74306945
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,63,38.0952381,25.3968254,52,7.692307692
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,6304,75.09517766,68.49619289,6215,61.0619469
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,136211,91.94852104,90.53086755,133517,88.35354299
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,49001,98.70818963,98.43880737,48223,98.15233395
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,192030,93.07451961,91.77420195,188362,89.90189104
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,514,74.90272374,71.40077821,407,60.68796069
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,15,66.66666667,60,15,40
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,112,90.17857143,86.60714286,106,83.96226415
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,63,96.82539683,96.82539683,61,93.44262295
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,2963,88.76139048,82.38272022,2812,69.48790896
+201920,Academic year,National,E92000001,England,Final,Academic,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,2773,88.64046159,82.00504868,2630,68.51711027
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,20528,83.52981294,76.22272019,19799,69.38229203
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,39406,88.63624829,84.213064,37964,77.0256032
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Priors 7+,629,93.16375199,91.57392687,599,82.80467446
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,61596,86.85304241,81.4647055,59162,74.28416889
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Total,Unknown prior attainment,1033,81.02613746,74.63697967,800,59.125
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,6722,81.30020827,72.74620649,6503,66.58465324
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,9476,86.02785986,80.26593499,9141,73.07734384
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,106,92.45283019,89.62264151,100,85
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,16389,83.92824455,77.0394777,15799,70.25761124
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,85,47.05882353,41.17647059,55,9.090909091
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,13787,84.60143614,77.89947052,13278,70.74107546
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,29910,89.46506185,85.46974256,28807,78.28652758
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,521,93.28214971,91.93857965,497,82.49496982
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,44475,87.89657111,83.09612142,42754,75.87828039
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,257,71.20622568,67.70428016,172,50
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,19,94.73684211,89.47368421,18,77.77777778
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,20,85,75,16,62.5
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,2,100,100,2,50
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,732,88.93442623,81.42076503,609,66.83087028
+201920,Academic year,National,E92000001,England,Final,Applied General,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,691,88.85672938,81.33140376,573,66.66666667
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 0 to < 4,8995,87.35964425,76.17565314,8521,73.91151273
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 4 to < 7,13911,90.28826109,83.3872475,12991,77.7384343
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Priors 7+,211,95.26066351,88.62559242,190,88.42105263
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,All priors including unknown prior attainment,23533,89.15565376,80.53796796,21995,76.1127529
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Total,Unknown prior attainment,416,87.01923077,75.48076923,293,60.06825939
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,2883,85.32778356,73.04890739,2727,71.43381005
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,3276,87.54578755,79.24297924,3076,72.7243173
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Priors 7+,28,92.85714286,78.57142857,26,84.61538462
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,6232,86.3928113,76.20346598,5857,71.9480963
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Disadvantaged,Unknown prior attainment,45,66.66666667,55.55555556,28,25
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,6109,88.31232608,77.67228679,5791,75.08202383
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,10625,91.14352941,84.67764706,9906,79.32566122
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Priors 7+,183,95.6284153,90.16393443,164,89.02439024
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,17067,90.12714595,82.17612937,15949,77.67885134
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,150,85.33333333,78.66666667,88,42.04545455
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,3,100,33.33333333,3,66.66666667
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,10,80,70,9,44.44444444
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,0,z,z,0,z
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,234,91.88034188,76.4957265,189,73.01587302
+201920,Academic year,National,E92000001,England,Final,Tech Level,Level 3,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,221,92.30769231,77.37556561,177,74.57627119
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 0 to < 4,7912,86.64054601,63.24570273,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 4 to < 7,2371,89.0341628,75.20033741,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Priors 7+,27,92.59259259,77.77777778,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,All priors including unknown prior attainment,10623,87.04697355,65.99830556,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Total,Unknown prior attainment,313,81.78913738,64.85623003,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 0 to < 4,3020,83.70860927,58.44370861,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 4 to < 7,637,89.01098901,71.27158556,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Priors 7+,4,100,75,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,All priors including unknown prior attainment,3704,84.28725702,60.47516199,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Disadvantaged,Unknown prior attainment,43,53.48837209,41.86046512,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 0 to < 4,4883,88.44972353,66.22977678,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 4 to < 7,1733,89.03635314,76.68782458,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Priors 7+,23,91.30434783,78.26086957,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,All priors including unknown prior attainment,6727,88.3752044,68.81224915,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Non-Disadvantaged,Unknown prior attainment,88,70.45454545,54.54545455,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 0 to < 4,9,88.88888889,55.55555556,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 4 to < 7,1,100,0,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Priors 7+,0,z,z,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,All priors including unknown prior attainment,192,93.75,73.95833333,z,z
+201920,Academic year,National,E92000001,England,Final,Technical Certificate,Level 2,National state-funded mainstream,Unknown disadvantaged status,Unknown prior attainment,182,93.95604396,75.27472527,z,z

@@ -1,0 +1,9 @@
+﻿col_name,col_type,label,indicator_grouping,indicator_unit,indicator_dp,filter_hint,filter_grouping_column
+characteristic_value,Filter,Disadvantage,,,,,
+prior_attainment,Filter,Prior attainment,,,,,
+exam_cohort,Filter,Cohort,,,,,level_of_study
+retention_in_scope,Indicator,Number of students,Retention,,0,,
+retained,Indicator,% retained,Retention,%,1,,
+retained_and_assessed,Indicator,% retained and assessed,Retention,%,1,,
+2yr_retention_in_scope,Indicator,Number of students in two-year programme,Second Year Retention,,0,,
+2yr_retained,Indicator,% returned and retained for a second year,Second Year Retention,%,1,,

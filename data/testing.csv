@@ -1,10 +1,10 @@
 time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,la_name,new_la_code,old_la_code,gender,school_type,number_on_roll,number_attending,percentage_attending,average_grade,average_spend
 2020,Academic year,National,E92000001,England,,,,,,Total,State funded,614,475,77.4,2,551
-2020,Academic year,National,E92000002,England,,,,,,Girls,State funded,527,442,83.9,4,348
-2020,Academic year,National,E92000003,England,,,,,,Boys,State funded,87,47,54,7,391
-2021,Academic year,National,E92000004,England,,,,,,Total,State funded,909,833,91.6,9,339
-2021,Academic year,National,E92000005,England,,,,,,Girls,State funded,586,95,16.2,5,411
-2021,Academic year,National,E92000006,England,,,,,,Boys,State funded,323,301,93.2,7,202
+2020,Academic year,National,E92000001,England,,,,,,Girls,State funded,527,442,83.9,4,348
+2020,Academic year,National,E92000001,England,,,,,,Boys,State funded,87,47,54,7,391
+2021,Academic year,National,E92000001,England,,,,,,Total,State funded,909,833,91.6,9,339
+2021,Academic year,National,E92000001,England,,,,,,Girls,State funded,586,95,16.2,5,411
+2021,Academic year,National,E92000001,England,,,,,,Boys,State funded,323,301,93.2,7,202
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Total,State funded,818,524,64.1,1,220
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Girls,State funded,512,260,50.8,2,776
 2020,Academic year,Local authority,E92000001,England,E12000007,London,Barking and Dagenham,E09000002,301,Boys,State funded,306,27,8.8,4,300

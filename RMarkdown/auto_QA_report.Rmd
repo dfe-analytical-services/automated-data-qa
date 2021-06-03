@@ -1,0 +1,145 @@
+---
+title: "Automated QA report example"
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    toc: true
+    toc_float:
+      collapsed: true
+---
+
+```{r setup, include=FALSE}
+source("R/basic_checks.R")
+```
+
+# Headlines - summary measures
+
+## Maximum
+
+The below table shows the maximum for each indicator and time period, along with which filters this applies to:
+
+```{R max, echo=FALSE, warning = FALSE, message = FALSE}
+
+maximum_results <- maximum_results %>% 
+   select(all_of(publication_filters),indicator,Maximum)
+
+DT::datatable(maximum_results)
+```
+
+## Minimum
+
+The below table shows the minimum for each indicator and time period, along with which filters this applies to:
+
+```{R Min,  echo=FALSE, warning = FALSE,message = FALSE}
+
+minimum_results <- minimum_results %>% 
+   select(all_of(publication_filters),indicator,Minimum)
+
+DT::datatable(minimum_results)
+```
+
+## Average
+
+The below table shows the average for each indicator and time period:
+
+```{R Avg, echo=FALSE, warning = FALSE}
+
+DT::datatable(average_results)
+```
+
+# Extreme values
+
+## Average spend
+
+### Above threshold
+The below results are above have seen an increase of >20% on last year.
+```{R extreme_spend_high, echo=FALSE, warning = FALSE}
+outliers<- get_outliers("average_spend", geog_level = "Local authority",thresh = 0.2,current_time = "2021",time_compare = "2020")
+
+above_threshold <- outliers %>%  filter(flag_big == "TRUE") %>% 
+  select(-c("thresh_indicator_big","thresh_indicator_small","flag_big","flag_small"))
+
+DT::datatable(above_threshold)
+```
+
+### Below threshold
+The below results are above have seen an decrease of >20% on last year.
+```{R extreme_spend_low, echo=FALSE, warning = FALSE}
+below_threshold<- outliers %>%  filter(flag_small == "TRUE")%>% 
+  select(-c("thresh_indicator_big","thresh_indicator_small","flag_big","flag_small"))
+
+DT::datatable(below_threshold)
+```
+
+## Number attending
+
+### Above threshold
+The below results are above have seen an increase of >20% on last year.
+```{R extreme_attending_high, echo=FALSE, warning = FALSE}
+outliers<- get_outliers("number_attending",geog_level = "Local authority",thresh = 0.2,current_time = "2021",time_compare = "2020")
+
+above_threshold <- outliers %>%  filter(flag_big == "TRUE")%>% 
+  select(-c("thresh_indicator_big","thresh_indicator_small","flag_big","flag_small"))
+
+DT::datatable(above_threshold)
+```
+
+### Below threshold
+The below results are above have seen an decrease of >20% on last year.
+```{R extreme_attending_low, echo=FALSE, warning = FALSE}
+
+below_threshold<- outliers %>%  filter(flag_small == "TRUE")%>% 
+  select(-c("thresh_indicator_big","thresh_indicator_small","flag_big","flag_small"))
+
+DT::datatable(below_threshold)
+```
+
+# Missing cells
+The table below shows the counts of suppressed cells
+```{R suppressed cell, echo=FALSE, warning = FALSE}
+
+kbl(suppressed_cell_count) %>% 
+   kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
+
+```
+
+# Duplicated rows
+The table below shows rows that might be duplicated. They may have different filters attached, but the numbers are identical to another row
+```{R dupe row, echo=FALSE, warning = FALSE}
+
+kbl(duplicated_rows) %>% 
+   kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
+
+```
+
+# Duplicated columns
+
+```{R dupe col, echo=FALSE, warning = FALSE}
+
+print(duplicated_cols_line)
+
+```
+
+# Subtotal checks - LA and region
+
+Tables will display containing regions where LA subtotals do not add up
+
+## Number attending
+```{R LA_att, echo = FALSE, warning = FALSE, message =FALSE}
+
+check_LA_region_totals("number_attending")
+
+```
+ 
+
+# Year on year comparisons
+
+## Average spend
+```{R yoy Spend, echo = FALSE, warning = FALSE}
+
+plot <- create_plot_LA(data, "average_spend", "2021","2020")
+
+plot
+
+```
