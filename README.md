@@ -24,7 +24,9 @@ These template snippets cover the <b>minimum</b> QA checks that teams should be 
 
 ## How to use
 
-The templates are written as functions, which you can apply to your data.
+The templates are written as functions, which you can apply to your data. 
+
+Detailed information on how each script works can be found in [the wiki](https://github.com/dfe-analytical-services/automated-data-qa/wiki)
 
 You can take the template code and adapt it for your own QA reports, a step-by-step example of how you could start adapting it can be found below:
 
