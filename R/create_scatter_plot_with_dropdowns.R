@@ -7,12 +7,12 @@ source("R/0_get_file_info.R")
 create_dropdown_plot_LA <- function(data,indicator,filter_definition,filter_dropdown_choice,time_x,time_y){
 
 data_prep_example <- data %>%
-  filter(geographic_level == "Local authority") %>%
-  select(time_period,region_name,la_name,all_of(publication_filters),indicator) %>%
-  mutate(!!indicator := as.numeric(get(indicator))) %>%
-  spread(time_period,indicator) %>%
+  dplyr::filter(geographic_level == "Local authority") %>%
+  dplyr::select(time_period,region_name,la_name,all_of(publication_filters),indicator) %>%
+  dplyr::mutate(!!indicator := as.numeric(get(indicator))) %>%
+  tidyr::spread(time_period,indicator) %>%
   #Make sure you've defined what each filter should be
-  filter(eval(parse(text=filter_definition)))
+  dplyr::filter(eval(parse(text=filter_definition)))
 
 data_prep_example %>%
   plot_ly(

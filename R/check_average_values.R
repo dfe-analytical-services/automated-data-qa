@@ -12,13 +12,13 @@ average_results<-data.frame(
 for (indicator in all_of(indicators)){
   
   avg_group <- data %>% 
-    filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
-    group_by(time_period) %>% 
-    mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    mutate(!!indicator := mean(get(indicator),na.rm=TRUE)) %>% 
-    select(time_period,indicator) %>% 
-    distinct %>% 
-    gather(indicator, "Average",-time_period)
+    dplyr::filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
+    dplyr::group_by(time_period) %>% 
+    dplyr::mutate(!!indicator := as.numeric(get(indicator))) %>% 
+    dplyr::mutate(!!indicator := mean(get(indicator),na.rm=TRUE)) %>% 
+    dplyr::select(time_period,indicator) %>% 
+    dplyr::distinct %>% 
+    tidyr::gather(indicator, "Average",-time_period)
   
   average_results <- average_results %>%  rbind(avg_group)
 }
