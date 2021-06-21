@@ -8,111 +8,99 @@ library(DT)
 library(kableExtra)
 
 # STEP 1: read in the data ------------------------------------------------
-data <- fread("data/testing2.csv") #Your file path here
-metadata <- fread("data/testing2.meta.csv") #Your metadata file path here
+data <- data.table::fread("data/testing2.csv") #Your file path here
+metadata <- data.table::fread("data/testing2.meta.csv") #Your metadata file path here
 
 
 # STEP 2: Use metadata to get list of filters and indicators --------------
 
 #Get list of indicators
 indicators <-  metadata %>% 
-  filter(col_type == "Indicator") %>% 
-  pull(col_name)
+  dplyr::filter(col_type == "Indicator") %>% 
+  dplyr::pull(col_name)
 
 
 #Get list of filters
 filters<- data %>% 
-  select(-indicators) %>% 
+  dplyr::select(-indicators) %>% 
   names()
 
 #Get list of publication-specific filters
 publication_filters <- metadata %>% 
-  filter(col_type == "Filter") %>% 
-  select(col_name) %>% 
-  pull(col_name)
+  dplyr::filter(col_type == "Filter") %>% 
+  dplyr::select(col_name) %>% 
+  dplyr::pull(col_name)
 
 
 #Get filter group combos for publication-specific filters
 distinct_filter_groups <- data %>% 
-  select(all_of(publication_filters)) %>% 
-  distinct()
+  dplyr::select(dplyr::all_of(publication_filters)) %>% 
+  dplyr::distinct()
 
 
 
 # Summary stats at the highest level-------------------
 
 #MAXIMUM - national
-#Create empty DF to bind into
-maximum_results<-data.frame(filters) %>% 
-  rbind("Indicator") %>% 
-  rbind("Maximum") %>% 
-  t() %>% 
-  row_to_names(row_number = 1) %>% 
-  as.data.frame()
-
-#Create function to loop through all indicators
-
-for (indicator in all_of(indicators)){
+#Write function to pull out maximum
+get_max <- function(indicator) {
   
-  max_group <- data %>% 
-    filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
-    group_by(time_period) %>% 
-    mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    filter(get(indicator) == max(get(indicator),na.rm=TRUE)) %>% 
-    select(all_of(filters),indicator) %>% 
-    gather(indicator, "Maximum",-all_of(filters))
-
-  maximum_results <- maximum_results %>%  rbind(max_group)
+  data %>% 
+    dplyr::filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
+    dplyr::group_by(time_period) %>% 
+    dplyr::mutate(!!indicator := as.numeric(get(indicator))) %>% 
+    dplyr::filter(get(indicator) == max(get(indicator),na.rm=TRUE)) %>% 
+    dplyr::select(all_of(filters),indicator) %>% 
+    tidyr::gather(indicator, "Maximum",-all_of(filters))
 }
+
+#Get list of outputs
+max_results_list <- lapply(indicators,get_max)
+
+#Create dataframe from outputs
+max_results <- dplyr::bind_rows(max_results_list)
 
 
 # MINIMUM - national
-#Create empty DF to bind into
-minimum_results<-data.frame(filters) %>% 
-  rbind("Indicator") %>% 
-  rbind("Minimum") %>% 
-  t() %>% 
-  row_to_names(row_number = 1) %>% 
-  as.data.frame()
-
-#Create function to loop through all indicators
-
-for (indicator in all_of(indicators)){
+#Write function to pull out minimum
+get_min <- function(indicator) {
   
-  min_group <- data %>% 
-    filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
-    group_by(time_period) %>% 
-    mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    filter(get(indicator) == min(get(indicator),na.rm=TRUE)) %>% 
-    select(all_of(filters),indicator) %>% 
-    gather(indicator, "Minimum",-all_of(filters))
-  
-  minimum_results <- minimum_results %>%  rbind(min_group)
+  data %>% 
+    dplyr::filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
+    dplyr::group_by(time_period) %>% 
+    dplyr::mutate(!!indicator := as.numeric(get(indicator))) %>% 
+    dplyr::filter(get(indicator) == min(get(indicator),na.rm=TRUE)) %>% 
+    dplyr::select(all_of(filters),indicator) %>% 
+    tidyr::gather(indicator, "Minimum",-all_of(filters))
 }
+
+#Get list of outputs
+min_results_list <- lapply(indicators,get_min)
+
+#Create dataframe from outputs
+min_results <- dplyr::bind_rows(min_results_list)
 
 
 # AVERAGE - national
-#Create empty DF to bind into
-average_results<-data.frame(
-  time_period = character(),
-  Indicator = character(),
-  Average= double())
-
-#Create function to loop through all indicators
-
-for (indicator in all_of(indicators)){
+#Write function to pull out averages
+get_averages <- function(indicator) {
   
-  avg_group <- data %>% 
-    filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
-    group_by(time_period) %>% 
-    mutate(!!indicator := as.numeric(get(indicator))) %>% 
-    mutate(!!indicator := mean(get(indicator),na.rm=TRUE)) %>% 
-    select(time_period,indicator) %>% 
-    distinct %>% 
-    gather(indicator, "Average",-time_period)
-  
-  average_results <- average_results %>%  rbind(avg_group)
+  data %>% 
+    dplyr::filter(geographic_level == "National") %>% #Set geographic level here if you want to change to region/LA
+    dplyr::group_by(time_period) %>% 
+    dplyr::mutate(!!indicator := as.numeric(get(indicator))) %>% 
+    dplyr::mutate(!!indicator := mean(get(indicator),na.rm=TRUE)) %>% 
+    dplyr::select(time_period,indicator) %>% 
+    dplyr::distinct() %>% 
+    tidyr::gather(indicator, "Average",-time_period)
 }
+
+#Get list of outputs
+average_results_list <- lapply(indicators,get_averages)
+
+#Create dataframe from outputs
+average_results <- dplyr::bind_rows(average_results_list)
+
 
 
 
