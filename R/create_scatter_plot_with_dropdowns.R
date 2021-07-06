@@ -12,7 +12,9 @@ data_prep_example <- data %>%
   dplyr::mutate(!!indicator := as.numeric(get(indicator))) %>%
   tidyr::spread(time_period,indicator) %>%
   #Make sure you've defined what each filter should be
-  dplyr::filter(eval(parse(text=filter_definition)))
+  dplyr::filter(eval(parse(text=filter_definition))) %>% 
+  #Arrange data in following order: grouping variable, plotting variable (what does each point represent?),dropdown choice.
+  dplyr::arrange(region_name,la_name,filter_dropdown_choice) 
 
 data_prep_example %>%
   plot_ly(
